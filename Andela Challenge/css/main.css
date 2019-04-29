@@ -1,0 +1,137 @@
+body {
+    margin: 0px;
+    background: linear-gradient(to right, rgba(112, 120, 133, 0.8), rgba(96, 105, 121, 0.5), rgba(225, 226, 228, 0.8), rgba(254, 255, 255, 0.5)), url(../img/background.jpg) no-repeat;
+}
+
+
+/* The navigation Bar */
+
+nav {
+    width: 100%;
+    background: black;
+    padding-top: 7px;
+    display: inline-flex;
+    height: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.about {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.2em;
+    float: right;
+}
+
+nav button {
+    width: 120px;
+    height: 30px;
+    border-style: ridge;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: teal;
+    color: teal;
+    font-size: 0.8em;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.scale {
+    border-radius: 50%;
+    margin-left: 20px;
+    border-style: ridge;
+    border-color: teal;
+    border-width: 1px;
+}
+
+
+/* The main section */
+
+.form {
+    width: 60%;
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 1em;
+    font-weight: lighter;
+    color: white;
+    background: black;
+    margin-top: 5%;
+}
+
+.weight-input {
+    display: block;
+    min-height: 40px;
+    width: 90%;
+    font-size: 0.8em;
+    margin: 10px 0;
+    border-style: ridge;
+    border-width: 1px;
+    background: black;
+    color: white;
+    padding: 5px;
+}
+
+.balance-btn {
+    float: right;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 9px;
+    border-color: teal;
+    width: 120px;
+    min-height: 30px;
+    margin: 5px 1px;
+    background-color: black;
+    color: teal;
+    display: block;
+}
+
+.scale-status {
+    font-weight: lighter;
+    font-size: 1.1em;
+    margin-left: 15px;
+}
+
+.scale-status .balancing {
+    color: teal;
+    font-size: 1.3em;
+}
+
+.scale-status label {
+    font-style: italic;
+}
+
+#results {
+    width: 60%;
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 1em;
+    font-weight: lighter;
+    color: white;
+    background: black;
+    margin-top: 60px;
+    height: 100px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#results h2 {
+    font-weight: lighter;
+    color: teal;
+}
+
+.status-point {
+    height: 20px;
+    width: 20px;
+    background: red;
+    float: left;
+    border-radius: 50%;
+    margin-top: 5px;
+}

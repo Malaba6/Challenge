@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Scale Balancing</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/ico" href="img/balance.jpg" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/balance.js"></script>
+</head>
+
+<body>
+    <header role="banner">
+        <nav>
+            <img class="scale" src="img/balance.jpg" alt="Scale" width="40px" height="40px">
+            <div class="about">
+                <button class="about-btn">About</button>
+                <button class="about-btn">Other games</button>
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        <div class="form">
+            <h2 class="scale-status">Scale <label class="balancing">Balancing</label></h2>
+            <form method="GET" name="form" action="" onsubmit="">
+                <fieldset>
+                    <label for="scale">Weights</label>
+                    <input type="text" id="weights" name="formscale" placeholder="e.g. [5, 9]" class="weight-input" required>
+                    <label for="balancers">Balancers</label>
+                    <input id="balancers" type="text" placeholder="e.g. [1, 2, 6, 7]" name="balancers" class="weight-input" required>
+                </fieldset>
+                <span class="status-point" id="status-point"></span>
+                <input type="button" value="Balance" name="submit" class="balance-btn" onclick="balanceIt()">
+            </form>
+        </div>
+        <div id="results">
+            <h2 id="results-h"></h2>
+        </div>
+    </main>
+</body>
+
+</html>
