@@ -1,3 +1,3 @@
 // let str = ;
 // console.log(str.length);
-console.log(NaN === +NaN);
+console.log(instanceof(+'2e3'));
